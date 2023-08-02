@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'kjh3l83kjdsf')
 
 DEBUG = os.environ.get('DEBUG', False) == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['158.160.76.223', 'kittygram.myvnc.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
