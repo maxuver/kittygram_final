@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'kjh3l83kjdsf')
 
-DEBUG = os.getenv('DEBUG', 'False') == 'True'
+DEBUG = os.getenv('DEBUG', False)
 
 ALLOWED_HOSTS = ['158.160.76.223', 'kittygram.myvnc.com']
 
