@@ -14,7 +14,10 @@ Kittygram allows users to share and show off photos of their beloved cats. Regis
     ```bash
     cd kittygram
     ```
- - Create a .env file and fill it with your data:
+ - Create a .env file ```py -3.9 -m venv venv```
+ - Activate ```source venv/scripts/activate```
+   
+ - Fill it with your data
 
     ```bash
    # Database Secrets
@@ -102,7 +105,7 @@ Kittygram allows users to share and show off photos of their beloved cats. Regis
    
     ```
 
-8. Add location settings to the server section:
+8. Add location settings to the server section or copy already working config from [taski-docker app](https://github.com/maxuver/taski-docker/blob/main/README.md):
 
     ```bash
     location / {
@@ -117,6 +120,36 @@ Kittygram allows users to share and show off photos of their beloved cats. Regis
     sudo nginx -t 
     sudo service nginx reload
     ```
+
+### pytest
+
+Install pytest in virtual enviroment ```pip install pytest```
+
+Run ```pytest``` and you'll see output
+
+ ```==================================================================================== test session starts =====================================================================================
+platform win32 -- Python 3.11.0, pytest-7.4.0, pluggy-1.2.0 -- C:\Users\Honor\OneDrive\Рабочий стол\uver files\yandex_practicum_python\DJango backend\15 sprint Docker\kittygram_finai\kittygram_final\venv\Scripts\python.exe
+rootdir: C:\Users\Honor\OneDrive\Рабочий стол\uver files\yandex_practicum_python\DJango backend\15 sprint Docker\kittygram_final
+configfile: pytest.ini
+testpaths: tests/
+collected 12 items
+
+tests/test_connection.py::test_link_connection[taski_domain] PASSED                                                                                                                     [  8%]
+tests/test_connection.py::test_link_connection[kittygram_domain] PASSED                                                                                                                 [ 16%]
+tests/test_connection.py::test_projects_on_same_ip PASSED                                                                                                                               [ 25%]
+tests/test_connection.py::test_kittygram_static_is_available PASSED                                                                                                                     [ 33%]
+tests/test_connection.py::test_kittygram_api_available PASSED                                                                                                                           [ 41%]
+tests/test_dockerhub_images.py::test_dockerhub_images_exist PASSED                                                                                                                      [ 50%]
+tests/test_files.py::test_infra_files_exist PASSED                                                                                                                                      [ 58%]
+tests/test_files.py::test_deploy_info_file_content PASSED                                                                                                                               [ 66%]
+tests/test_files.py::test_backend_dockerfile_exists PASSED                                                                                                                              [ 75%]
+tests/test_files.py::test_backend_dokerfile_content PASSED                                                                                                                              [ 83%]
+tests/test_files.py::test_workflow_file PASSED                                                                                                                                          [ 91%]
+tests/test_files.py::test_requirements_location PASSED                                                                                                                                  [100%] 
+
+=============================================================================== 12 passed, 2 warnings in 4.93s ===============================================================================
+```
+
  
 ### Link to the Deployed Application:
 
@@ -134,6 +167,8 @@ Kittygram allows users to share and show off photos of their beloved cats. Regis
 - React (frontend)
 - Node.js
 - Git
+- Pytest
+- Yandex Cloud
 
 Author of the project | My website
 ------------- | -------------
