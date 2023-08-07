@@ -154,7 +154,11 @@ tests/test_files.py::test_requirements_location PASSED                          
 ### Link to the Deployed Application:
 
 - #### https://kittygram.myvnc.com
- 
+![image](https://github.com/maxuver/kittygram_final/assets/78837452/3a652f01-dea3-4c47-8840-29d0f537e0e0)
+![image](https://github.com/maxuver/kittygram_final/assets/78837452/700bd638-e639-4ae0-b083-1066d50cd675)
+![image](https://github.com/maxuver/kittygram_final/assets/78837452/453c5a6a-1b33-41fc-869b-eba660644199)
+![image](https://github.com/maxuver/kittygram_final/assets/78837452/9f34fbee-9ad3-4aa7-b5e6-4714e4435720)
+
 ### Technologies and Necessary Tools:
 
 - Docker
