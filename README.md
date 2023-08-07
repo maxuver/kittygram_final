@@ -14,7 +14,7 @@ Kittygram allows users to share and show off photos of their beloved cats. Regis
     ```bash
     cd kittygram
     ```
- - Create a .env file ```py -3.9 -m venv venv```
+ - Create .env file ```py -3.9 -m venv venv```
  - Activate ```source venv/scripts/activate```
    
  - Fill it with your data
