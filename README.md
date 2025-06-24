@@ -173,7 +173,3 @@ tests/test_files.py::test_requirements_location PASSED                          
 - Git
 - Pytest
 - Yandex Cloud
-
-Author of the project | My website
-------------- | -------------
-[maxuver](https://github.com/maxuver) | [maxuver.github.io](https://maxuver.github.io)
