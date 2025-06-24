@@ -176,4 +176,4 @@ tests/test_files.py::test_requirements_location PASSED                          
 
 Author of the project | My website
 ------------- | -------------
-[maxuver](https://github.com/maxuver) | [maximpatsyuk.com](https://maximpatsyuk.com)
+[maxuver](https://github.com/maxuver) | [maxuver.github.io](https://maxuver.github.io)
